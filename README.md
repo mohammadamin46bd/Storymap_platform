@@ -1,13 +1,19 @@
 # Storymap platform
+
+<img style="margin-left:auto;margin-right:auto;display:block;" src="img/demo/storymap_platform_demo.gif" width="900"></img>
+
+## Examples
+- [Grönplan 2017 (City Map of Kristianstad)](https://kartor.kristianstad.se/op/?app=gp)
+- [Trafikplan (City Map of Kristianstad)](https://kartor.kristianstad.se/op/?app=tp)
+
 ## Introduction:
-Storymap platform is an easy and interactive way of presenting information in the web by using text, images and maps. For example, Kristianstads kommun is using Storymap platform for presenting masterplan, traffic plan etc. to the citizens and politicians. 
+Storymap platform is an easy and interactive way of presenting information in the web by using text, images and maps. For example, Kristianstads kommun is using Storymap platform for presenting masterplan, traffic plan etc. to the citizens and politicians.  
 
 ## Method: 
 
 Storymap platform is a web application. It can read data from database or from plain Javascript file. Data handler for consuming data from database is currently available for PostgreSQL and Oracle database.
-Storymap platform source code looks like below:
 
-<img style="margin-left:auto;margin-right:auto;display:block;" src="img/demo/files.jpeg" width="900"></img>
+To make things simple pre-packaging has done before placing the source code in GitHub, so that post processing and other package related configuration can be skipped. However, index.js and tab.js file can be minified to index.min.js and tab.min.js file by using this https://javascript-minifier.com/ link. Index_tab.css file can be minified to index_tab.min.css file by using this https://cssminifier.com/ link. 
 
 In order to create new application or new presentation the followings will need to be done:
 For example, if we will need to create new application or new presentation called “kmp” we will need to do the below:
@@ -73,6 +79,7 @@ A relation is available between tabs and items table and it is tabs_id column. E
 
 
 | Column name |  Description |
+| ------------- | ------------- |
 |items_id	       |Id number for each item in the item table.|
 |items	           |Item name/title for each item. Item name list/title list shows in Storymap platform when a user clicks in the title list button (red marked in image 3)|
 |url	           |It is a web link for showing its content on the right side of the Storymap platform. Content of this link can be an image or a web map.|
@@ -116,7 +123,7 @@ Another content in the digital platform looks like below (red marked):
 </br></br>
 <h primaryKey ='pri_404' foreignKey='pri_15' style='font-family:verdana;font-size:13px;color:#5389ae;'><ins>Nästa avsnitt >></ins></h></br></p>"
 ```
-Administrator can use the same html tags in different content with little adjustment by changing the text, images etc. It is possible to add primaryKey and foreignKey as attribute for moving/linking from one item to another. In the above example, we have used header (`<h>, <h23>`), image (`<img>`), break line (`</br>`), paragraph (`<p>`) and other html tags. 
+Administrator can use the same html tags in different content with little adjustment by changing the text, images etc. It is possible to add primaryKey and foreignKey as attribute for moving/linking from one item to another. In the above example, we have used header (`<h>, <h23>`), image (`<img>`), break line (`</br>`), paragraph (`<p>`) and other html tags. The easiest way to make more familiar with content writting for Storymap platform is to look into the examples pages (Grönplan and Trafikplan för Kristianstds kommun).  
 
 
 ## Conclusion:
