@@ -3,8 +3,8 @@
 <img style="margin-left:auto;margin-right:auto;display:block;" src="img/demo/storymap_platform_demo.gif" width="900"></img>
 
 ## Examples
-- [Grönplan 2017 (City Map of Kristianstad)](https://kartor.kristianstad.se/op/?app=gp)
-- [Trafikplan (City Map of Kristianstad)](https://kartor.kristianstad.se/op/?app=tp)
+- [Grönplan 2017 (City of Kristianstad)](https://kartor.kristianstad.se/op/?app=gp)
+- [Trafikplan (City of Kristianstad)](https://kartor.kristianstad.se/op/?app=tp)
 
 ## Introduction:
 Storymap platform is an easy and interactive way of presenting information in the web by using text, images and maps. For example, Kristianstads kommun is using Storymap platform for presenting masterplan, traffic plan etc. to the citizens and politicians.  
