@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="author" content="Mohammad Amin">
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, maximum-scale=1, target-densitydpi=medium-dpi, minimal-ui">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="default">
+        <meta name="apple-mobile-web-app-title" content="smap responsive">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Digital plattform</title>
+        <link rel="apple-touch-icon-precomposed" sizes="152x152" href="img/appicons/apple-touch-icon-152x152.png">
+        <link rel="apple-touch-icon-precomposed" sizes="144x144" href="img/appicons/apple-touch-icon-144x144.png">
+        <link rel="apple-touch-icon-precomposed" sizes="120x120" href="img/appicons/apple-touch-icon-120x120.png">
+        <link rel="apple-touch-icon-precomposed" sizes="114x114" href="img/appicons/apple-touch-icon-114x114.png">
+        <link rel="apple-touch-icon-precomposed" sizes="76x76" href="img/appicons/apple-touch-icon-76x76.png">
+        <link rel="apple-touch-icon-precomposed" sizes="72x72" href="img/appicons/apple-touch-icon-72x72.png">
+        <link rel="apple-touch-icon-precomposed" sizes="57x57" href="img/appicons/apple-touch-icon-57x57.png">
+        <link rel="apple-touch-icon-precomposed" href="img/appicons/apple-touch-icon.png">
+        <link rel="apple-touch-startup-image" href="img/appicons/Default-Landscape.jpg" media="screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:landscape)">
+        <link rel="apple-touch-startup-image" href="img/appicons/Default-Portrait.jpg" media="screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:portrait)">
+        <link rel="apple-touch-startup-image" href="img/appicons/Default.jpg" media="screen and (max-device-width: 320px)">
+        <link rel="icon" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAARCAMAAADjcdz2AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAIGNIUk0AAHolAACAgwAA+f8AAIDoAABSCAABFVgAADqXAAAXb9daH5AAAABUUExURQAAACxFe////yxFeyxFeyxFeyxFeyxFeyxFeyxFeyxFeyxFeyxFeyxFeyxFeyxFeyxFeyxFeyxFeyxFeyxFeyxFeyxFeyxFeyxFeyxFeyxFeyxFe+kUpQQAAAAbdFJOUwAAAAYQFyAwMUBQYHCAj5+vv8/S1t/p7u/0/akzb+IAAACGSURBVBgZBcEBQoJQAECxp/0gUgQsy9z979lW1X7c4RhVVU/AparqE7BVNfZ93ICj6uOPY9zB1nztBesMx7g+BcwX1rEjYG+e5gd0h/tSM9By7JdpusxtQLXcHjw7gJqBZQVqApYrUG1gGw9QTfD1fhrLuh+3qtXrd5xOVVXV98/b6Xyuqn8hwBFVlPApigAAAABJRU5ErkJggg=="/>
+        <script type="text/javascript" src="settings.js"></script>
+        <link rel="stylesheet" type="text/css" href="index_tab.min.css">
+        <script type="text/javascript" src="index.min.js"></script>
+    </head>
+    <body style="overflow:hidden;" onload="load_main_content();update_main_content();">
+        <div id="modal-body-scrollheader" class="modal-body scrollheader">
+            <div align="left" class="row">
+                <div class="col-xs-12 col-sm-4 logodiv">
+                    <a href="https://www.kristianstad.se" target="_blank">
+                        <img class="logosize" src="logo.png" alt="Till startsidan" title="Till startsidan">
+                    </a>
+                    <button type="button" id="op-sharelink-btn" data-toggle=tooltip data-placement=bottom title="Dela" class="btn btn-default">
+                        <span class="fa fa-link"></span>
+                    </button>
+                    <button type="button" id="op-helpinformation-btn" data-toggle=tooltip data-placement=bottom title="Hjälpinformation" class="btn btn-default">
+                        <span class="glyphicon glyphicon-info-sign"></span>
+                    </button>
+                </div>
+                <div class="col-xs-12 col-sm-8 text">
+                    <h1 id="desktopHeaderText_id"></h1>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
