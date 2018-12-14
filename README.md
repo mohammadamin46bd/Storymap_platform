@@ -13,16 +13,16 @@ Storymap platform is an easy and interactive way of presenting information in th
 
 Storymap platform is a web application. It can read data from database or from plain Javascript file. Data handler for consuming data from database is currently available for PostgreSQL and Oracle database.
 
-To make things simple pre-packaging has done before placing the source code in GitHub, so that post processing and other package related configuration can be skipped. However, index.js and tab.js file can be minified to index.min.js and tab.min.js file by using this https://javascript-minifier.com/ link. Index_tab.css file can be minified to index_tab.min.css file by using this https://cssminifier.com/ link. 
+To make things simple pre-packaging has done before publishing the source code in GitHub, so that post processing and other package related configuration can be skipped. However, index.js and tab.js file can be minified to index.min.js and tab.min.js file by using this https://javascript-minifier.com/ link. Index_tab.css file can be minified to index_tab.min.css file by using this https://cssminifier.com/ link. 
 
 In order to create new application or new presentation the followings will need to be done:
-For example, if we will need to create new application or new presentation called “kmp” we will need to do the below:
+For example, if we will need to create new a application or a new presentation called “kmp” we will need to do the below:
 -	Copy the gp.css file and paste it in the same folder and change the name to kmp.css
 -	Open settings.js file which will look like below:
 
 <img style="margin-left:auto;margin-right:auto;display:block;" src="img/demo/settings1.jpeg" width="900"></img>
 
-Cope the gp object and paste it in the file for creating a new object, and change the newly created object key name from gp to kmp and afterword’s change the values as needed which will looks like below:
+Copy the gp object and paste it in the file for creating a new object, and change the newly created object key name from gp to kmp and afterword’s change the values as needed which will looks like below:
 
 <img style="margin-left:auto;margin-right:auto;display:block;" src="img/demo/settings2.jpeg" width="900"></img>
 
@@ -51,7 +51,7 @@ Tabs table looks like:
 
 <img style = "margin-left: auto;margin-right: auto;display: block;" src="img/demo/tabs.jpeg" width="600"></img>
 
-There are four columns available in this table and they are tabs_id, tabs, tabs_order and appname. Every distinct appname means an application or a presentation with text, images and maps. Every distinct tabs means a tab in the Storymap platform. A digital platform presentation can have as many tabs as needed. For example, appname gp have 10 tabs. Column tabs_order means order of the tabs in the Storymap platform. Tabs for gp application looks like below (red marked):
+There are four columns available in this table and they are tabs_id, tabs, tabs_order and appname. Every distinct appname means an application or a presentation with text, images and maps. Every distinct tabs means a tab in the Storymap platform. A digital platform presentation can have as many tabs as needed. For example, appname gp has 10 tabs. Column tabs_order means order of the tabs in the Storymap platform. Tabs for gp application looks like below (red marked):
 
 <img style = "margin-left: auto;margin-right: auto;display: block;" src="img/demo/tabs_i.jpeg" width="900"></img>
 
